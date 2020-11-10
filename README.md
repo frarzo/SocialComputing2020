@@ -13,3 +13,9 @@ def follower_graph(df_followers):
         follower_graph.add_edge(row["id"],row['target'])
         
     return follower_graph
+	
+	
+	
+followers_count=row['followers_count'],
+friends_count=row['friends_count'],
+statuses_count = row['statues_count']
