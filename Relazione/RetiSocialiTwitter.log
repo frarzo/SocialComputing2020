@@ -1,74 +1,40 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  6 NOV 2020 10:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  16 NOV 2020 22:02
 entering extended mode
 **./RetiSocialiTwitter.tex
 (RetiSocialiTwitter.tex
 LaTeX2e <2020-10-01> patch level 1
 L3 programming layer <2020-10-05> xparse <2020-03-03>
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
-)
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-))
-\Gm@cnth=\count183
-\Gm@cntv=\count184
-\c@Gm@tempcnt=\count185
-\Gm@bindingoffset=\dimen139
-\Gm@wd@mp=\dimen140
-\Gm@odd@mp=\dimen141
-\Gm@even@mp=\dimen142
-\Gm@layoutwidth=\dimen143
-\Gm@layoutheight=\dimen144
-\Gm@layouthoffset=\dimen145
-\Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks16
-
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-)
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2020/08/01 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
 )
 (C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/10/06 3.50 The Babel package
 
 (C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/10/06 3.50 Babel common definitions
-\babel@savecnt=\count186
-\U@D=\dimen147
+\babel@savecnt=\count184
+\U@D=\dimen139
 \l@babelnohyphens=\language79
 
 (C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
-\bbl@dirlevel=\count187
+\bbl@dirlevel=\count185
 
 *************************************
 * Local config file bblopts.cfg used
@@ -80,83 +46,113 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/babel-italian\italian.l
 df
 Language: italian 2020/05/21 v.1.4.04 Italian support for the babel system
-\it@lettering=\count188
-\it@doublequoteactive=\count189
-\it@ISOcompliance=\count190
+\it@lettering=\count186
+\it@doublequoteactive=\count187
+\it@ISOcompliance=\count188
 ))
 (C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count191
+\etb@tempcnta=\count189
 )
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 )
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gin@req@height=\dimen148
-\Gin@req@width=\dimen149
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+
+(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+
+Package geometry Warning: Over-specification in `h'-direction.
+    `width' (483.69684pt) is ignored.
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (759.68857pt) is ignored.
+
 )
 (C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count192
+\l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box47
 ) (RetiSocialiTwitter.aux)
 \openout1 = `RetiSocialiTwitter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Info: Redefining \it@ocap on input line 6.
+LaTeX Info: Redefining \it@ccap on input line 6.
+
+
+File italian.ldf warning: 
+italian.ldf    With OT1 encoding guillemets are poorly faked
+italian.ldf    Use T1 encoding
+italian.ldf    or specify a font with command \CaporaliFrom
+italian.ldf    See the documentation concerning the babel-italian typesetting 
+italian.ldf    on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: legalpaper
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 867.24002pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=1011.78pt
-* \textwidth=469.75502pt
-* \textheight=867.24002pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* h-part:(L,W,R)=(59.75078pt, 478.00632pt, 59.75078pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=478.00632pt
+* \textheight=759.6886pt
+* \oddsidemargin=-12.51921pt
+* \evensidemargin=-12.51921pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -166,59 +162,54 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \it@ocap on input line 7.
-LaTeX Info: Redefining \it@ccap on input line 7.
-
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count193
-\scratchdimen=\dimen150
-\scratchbox=\box48
-\nofMPsegments=\count194
-\nofMParguments=\count195
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count196
-\MPscratchDim=\dimen151
-\MPnumerator=\count197
-\makeMPintoPDFobject=\count198
-\everyMPtoPDFconversion=\toks20
-)
-(C:\Users\loris\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 13.
-
-
-LaTeX Warning: No \author given.
-
 [1
 
+
 {C:/Users/loris/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(RetiSocialiTwitter.aux) ) 
+(RetiSocialiTwitter.toc)
+\tf@toc=\write3
+\openout3 = `RetiSocialiTwitter.toc'.
+
+ [1
+
+]
+Capitolo 1.
+[2
+
+]
+Capitolo 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
+ []
+
+[3
+
+]
+Capitolo 3.
+[4
+
+]
+Capitolo 4.
+[5
+
+] (RetiSocialiTwitter.aux) ) 
 Here is how much of TeX's memory you used:
- 3057 strings out of 480236
- 43317 string characters out of 2880557
- 335651 words of memory out of 3000000
- 19609 multiletter control sequences out of 15000+200000
- 540896 words of font info for 42 fonts, out of 3000000 for 9000
+ 2122 strings out of 480236
+ 31751 string characters out of 2880557
+ 327389 words of memory out of 3000000
+ 18707 multiletter control sequences out of 15000+200000
+ 537546 words of font info for 37 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,66p,213b,196s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\loris\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk>
-Output written on RetiSocialiTwitter.pdf (1 page, 16316 bytes).
+ 60i,4n,66p,249b,141s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/loris/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/loris/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/loris/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on RetiSocialiTwitter.pdf (6 pages, 53980 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
