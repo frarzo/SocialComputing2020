@@ -4,6 +4,8 @@
 \contentsline {chapter}{\numberline {2}Costruzione del grafo}{3}{}%
 \contentsline {section}{\numberline {2.1}Download dei nodi}{3}{}%
 \contentsline {section}{\numberline {2.2}Creazione degli archi}{3}{}%
+\contentsline {subsection}{\numberline {2.2.1}Ottimizzazione archi}{3}{}%
 \contentsline {section}{\numberline {2.3}Visualizzazione del grafo}{3}{}%
+\contentsline {subsection}{\numberline {2.3.1}Ottimizzazione visualizzazione}{3}{}%
 \contentsline {chapter}{\numberline {3}Analisi del grafo}{4}{}%
 \contentsline {chapter}{\numberline {4}CONCLUSIONE}{5}{}%
