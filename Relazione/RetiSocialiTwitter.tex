@@ -57,22 +57,57 @@ La visualizzazione interattiva del grafo costruito con le funzioni messe a dispo
 E' possibile ridurre i costi per l'elaborazione grafica di costruzione del grafo impostando il parametro opzionale phisic = False. Questo parametro a discapito dell'interazione fisica nel trascinamento  dei nodi che avrebbero una risposta fisica, permette di risparmiare l'80 percento di tempo.
 
 \pagebreak
-\chapter{Analisi del grafo}
+\chapter{Analisi del grafo completo}
 Applicando le relative funzioni messe a disposizione dalla libreria di networkX abbiamo potuto stabilire che il grafo è:
 \begin{itemize}
 	\item Il grafo da noi analizzato non è connesso.\\
-	E' errato pensare che tutti gli utenti che seguono l'account \textbf{UtenteTwitter} a loro volta hanno dei followers che seguono \textbf{UtenteTwitter}. Nel caso in cui tenessimo traccia delle relazioni interne tra i nodi di secondo livello e quelli di terzo livello, visualizzando i path indiretti, allora sarebbe risultato connesso. Ma questo dipende dalla componente casuale che sceglie i nodi da cui scaricare i relativi follower dei follower. 
-	\item Il grafo è ..
-	\item Il grafo è ..
-	\item Il grafo è ..
-	\item Il grafo è ..
-	\item Il grafo è ..
+	E' errato pensare che tutti gli utenti che seguono l'account \textbf{UtenteTwitter} a loro volta hanno dei followers che seguono \textbf{UtenteTwitter}. Nel caso in cui tenessimo traccia delle relazioni interne tra i nodi di secondo livello e quelli di terzo livello, visualizzando i path indiretti, allora sarebbe risultato connesso. Ma questo dipende dalla componente casuale che sceglie da quali nodi scaricare i relativi follower dei follower. 
+	\item Il grafo è bipartito.
+	\item Le distanze sul grafo:
+		\begin{itemize}
+			\item Centro: 
+			\item Diametro: 
+			\item Raggio: 
+		\end{itemize}
+	
+	\item Le misure di centralità del grafo:
+		\begin{itemize}
+			\item Betweenness: 
+			\item Closness: 
+			\item Degree: 
+			\item In-centrality: 
+			\item Out-centrality: 
+			\item Degree: 
+		\end{itemize}
+	
+	\item Indici di ranking del grafo:
+		\begin{itemize}
+			\item PageRank:
+			\item Hits: 
+				\begin{itemize}
+					\item Hubs:
+					\item Authorities: 
+			\end{itemize}
+		\end{itemize}
+	\item L'albero di copertura è ..
+	\item Il valore di small-worldness sigma è : \\
+	E quello omega è \\
+	Questo indica che il nostro grafo è
+	\item Correlazione di Pearson e Kendal delle misure di centralità:\\ 
+	Inserire immagine della tabella 
 \end{itemize}
-Analizzando il sottografo dell'account KevinRoitero:
+\pagebreak
+\section{Analisi del sottografo dell'utente KevinRoitero}
+Considerando il sottografo dell'account KevinRoitero:
+
+Vista la complessità computazionale dell'operazione di maxClique, l'abbiamo applicata su uno dei sottografi più piccoli del grafo principale.
 
 \pagebreak
 
-\chapter{CONCLUSIONE}
+\chapter{Conclusioni}
+Dopo quest'analisi possiamo affermare che il grafo sociale costruito evidenzia la centralità dei nodi principali nel grado, ma possiamo anche notare la presenza di nodi completamente scollegati da esso.\\
+I risultati ottenuti dalle funzioni ci permette di affermare che \\
+Se ci fosse stata la possibilità di costruire l'intera rete sociale dei 5 nodi principali, con delle API di Twitter meno restringenti, avremmo potuto notare l'eventuale presenza di altri Hub o autorità.
 \pagebreak
 
 \end{document}\\

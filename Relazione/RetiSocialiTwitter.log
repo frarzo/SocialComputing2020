@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  24 NOV 2020 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  24 NOV 2020 15:00
 entering extended mode
 **./RetiSocialiTwitter.tex
 (RetiSocialiTwitter.tex
@@ -196,28 +196,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--46
 Capitolo 3.
 [4
 
-]
+] [5]
 Capitolo 4.
-[5
+[6
 
 ] (RetiSocialiTwitter.aux) ) 
 Here is how much of TeX's memory you used:
- 2142 strings out of 480236
- 31988 string characters out of 2880557
- 329380 words of memory out of 3000000
- 18720 multiletter control sequences out of 15000+200000
+ 2144 strings out of 480236
+ 32020 string characters out of 2880557
+ 331380 words of memory out of 3000000
+ 18722 multiletter control sequences out of 15000+200000
  540898 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,4n,66p,503b,188s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,4n,66p,503b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\loris\AppData\Local\MiKTeX\fonts/pk/ljfo
 ur/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/loris/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/loris/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/loris/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/loris/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on RetiSocialiTwitter.pdf (6 pages, 71932 bytes).
+Output written on RetiSocialiTwitter.pdf (7 pages, 75360 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
