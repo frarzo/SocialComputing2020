@@ -48,7 +48,7 @@ if(api.verify_credentials):
 
 
 users=["mizzaro","damiano10","miccighel_","eglu81","KevinRoitero"]
-users_id=[18932422, 15750573, 15750573, 19659370, 3036907250]
+users_id=[18932422, 132646210, 15750573, 19659370, 3036907250]
 
 
 followers_ids=read_json("data_ids/followers_5_utenti.json")
@@ -88,22 +88,22 @@ for node_id in id_nodi_revisionati:
     print(round(i*100/tot,3),"%")
     time.sleep(1)
     try:
-        relationship = api.show_friendship(source_id=node_id,target_id=15750573)
+        relationship = api.show_friendship(source_id=node_id,target_id=132646210)
         relation = relationship[0]
         infos_of_relation={}
         #Controllo nell'oggetto relationship delle relazioni di follow e following
         if(relation.following == True): # node follows the user
             infos_of_relation["source"] = node_id
             infos_of_relation["type"] = "following"
-            infos_of_relation["target"] = 15750573
+            infos_of_relation["target"] = 132646210
             friendships.append(infos_of_relation)
         if(relation.followed_by == True): # user follows the node
-            infos_of_relation["source"] = 15750573
+            infos_of_relation["source"] = 132646210
             infos_of_relation["type"] = "follows"
             infos_of_relation["target"] = node_id
             friendships.append(infos_of_relation)
     except:
         print(node_id)
     i+=1
-serialize_json("data_ids", "miccighel_edges_of_twitter_graph.json", friendships)
+serialize_json("data_ids", "damiano_edges_of_twitter_graph.json", friendships)
 print("Completamento controllo relazioni terminato")

@@ -1,0 +1,1792 @@
+[
+    {
+        "source": 116897811,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 94732055,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 94732055
+    },
+    {
+        "source": 514667085,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 514667085
+    },
+    {
+        "source": 14451127,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 14451127
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 920700510306529280
+    },
+    {
+        "source": 1527607790,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1527607790
+    },
+    {
+        "source": 1477918760,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 810893744593584128,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 810893744593584128
+    },
+    {
+        "source": 125483940,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 125483940
+    },
+    {
+        "source": 406303880,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 406303880
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 4863093417
+    },
+    {
+        "source": 2190533245,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2190533245
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3761306416
+    },
+    {
+        "source": 2309104237,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 127894322
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 269301403
+    },
+    {
+        "source": 341000847,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 341000847
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 25134469
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 22597445
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3041372326
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 485865743
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15378449
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3128829965
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 19659370
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 40030538
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 301941645
+    },
+    {
+        "source": 338989477,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 338989477
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 46131106
+    },
+    {
+        "source": 249661913,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 249661913
+    },
+    {
+        "source": 2601589496,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2601589496
+    },
+    {
+        "source": 132646210,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 132646210
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 44973000
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1339637532
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 93781753
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 544737616
+    },
+    {
+        "source": 15455450,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15455450
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 119512412
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 11892372
+    },
+    {
+        "source": 130671142,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 130671142
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15159648
+    },
+    {
+        "source": 16868154,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 16868154
+    },
+    {
+        "source": 78969930,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 78969930
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 18417153
+    },
+    {
+        "source": 393675585,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 393675585
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 52059998
+    },
+    {
+        "source": 48677032,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 48677032
+    },
+    {
+        "source": 1556357336,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1556357336
+    },
+    {
+        "source": 15750573,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15750573
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 193935341
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 229601276
+    },
+    {
+        "source": 1265795638551212032,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1265795638551212032
+    },
+    {
+        "source": 1187585868493537280,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1187585868493537280
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 305474242
+    },
+    {
+        "source": 18874262,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1121364987178618880
+    },
+    {
+        "source": 59217922,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 59217922
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 6778812
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 40576466
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2165646554
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2336440088
+    },
+    {
+        "source": 947311503216066560,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 947311503216066560
+    },
+    {
+        "source": 934851466082357249,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 934851466082357249
+    },
+    {
+        "source": 3033312071,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 608052226
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 889657085868298240
+    },
+    {
+        "source": 3102522680,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 771681197781053440
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 26240101
+    },
+    {
+        "source": 824812182114164736,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 824812182114164736
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 717348489215262724
+    },
+    {
+        "source": 39697728,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 39697728
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 4833032980
+    },
+    {
+        "source": 391867472,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 391867472
+    },
+    {
+        "source": 18932422,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 18932422
+    },
+    {
+        "source": 788839271239184385,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3293206151,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 51023058,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 51023058
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 190161488
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 262236415
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 813286
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 333597222
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1734575215
+    },
+    {
+        "source": 157920406,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 30339571
+    },
+    {
+        "source": 2382305514,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2382305514
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 153327232
+    },
+    {
+        "source": 458399248,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 458399248
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 431210487
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 4742002531
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3074437553
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2769983813
+    },
+    {
+        "source": 350164545,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 117483950
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2910644884
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 403274895
+    },
+    {
+        "source": 184125091,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 343587148,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 2444133930,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 839139788846411777,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 2417892751,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1111315973125169152,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1111315973125169152
+    },
+    {
+        "source": 1195044761322823680,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1156797119149121541,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1156797119149121541
+    },
+    {
+        "source": 911963260005552128,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 20356196,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1264438328,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1264438328
+    },
+    {
+        "source": 270044784,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 270044784
+    },
+    {
+        "source": 954235769618538496,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 707112185076391936,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 4053818032,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 4053818032
+    },
+    {
+        "source": 854719703545253888,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 50414506,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 894723591446687745,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 436609034,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 436609034
+    },
+    {
+        "source": 308456550,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 308456550
+    },
+    {
+        "source": 822183485523841025,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 822183485523841025
+    },
+    {
+        "source": 1483247714,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1483247714
+    },
+    {
+        "source": 735809541456027648,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 735809541456027648
+    },
+    {
+        "source": 824668943285702661,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 271485168,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 271485168
+    },
+    {
+        "source": 696907754275930112,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 4663308149,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1978351027,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 701026341500690432,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 829903626,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 829903626
+    },
+    {
+        "source": 4645255754,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1479360883,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1479360883
+    },
+    {
+        "source": 2798157850,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3270447613,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 408717162,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3201975988,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1367458171,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1367458171
+    },
+    {
+        "source": 3240349167,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3038714572,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3081160595,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 2969887354,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 2877269332,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 2208838112,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2208838112
+    },
+    {
+        "source": 3077138539,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3083042302,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 263265080,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 263265080
+    },
+    {
+        "source": 3036851230,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3015605477,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1019673422,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 73509664,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3051698888,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3035211041,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 1734817550,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3037264899,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 579133028,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 49043059,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 569382995,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 569382995
+    },
+    {
+        "source": 2827812417,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3053756746,
+        "type": "following",
+        "target": 3036907250
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1189744336415723520
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 910827588
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1070321898951753728
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 870362407
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3415864408
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 799830497065050112
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 216939636
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 804701761017671680
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3107101390
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 862356144748204032
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2251623492
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 296312612
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3395161438
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2645602164
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 375007888
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1891806212
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2273201773
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 85648537
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 382158989
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 271243941
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 95196023
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 59504716
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 41667342
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 17157367
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 21457289
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 33838201
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 20536157
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 59263220
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 76679840
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15492359
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 115763683
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3304471
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 13056322
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1195040516318093312
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 762093631
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 87476034
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1039052508193284096
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 720389270335135745
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 928760788306878464
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 966411199649808386
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 4027105402
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 48008938
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 109598348
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 783214
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3092629269
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 44196397
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 571202103
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 718108213078568960
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 755733488851189760
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 830589635738816512
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 19341622
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 781332157
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 69870134
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 854581958
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2676313880
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2460368252
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2322434384
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 57320656
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1344951
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 50393960
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 84351228
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 16134540
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 200630242
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 154221292
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2424287186
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1131186925212241920
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 108434901
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 951237270044069888
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3034892963
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2347049341
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 56510427
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 23818581
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 688583
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3003392104
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3026571023
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 29866761
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 80422885
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3697013177
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2360762586
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2385273733
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 124087958
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3511430425
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 562439654
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 570072860
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 831114368435748864
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 12353582
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 57047586
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 477554560
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2898184305
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 58160853
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 717768811005526016
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 230815459
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 117079124
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2659265263
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 31311757
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2196922086
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 720605133483208705
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1053724531
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 776732741098467328
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 19411223
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1038481676
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 207450631
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 319135326
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 838464523
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 22843337
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 573918122
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 487736815
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15521075
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 3356531254
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1579422614
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 381187236
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 19722699
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1636590253
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 14677919
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1652541
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 237670274
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2271904531
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1350732349
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 817845968
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 972651
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 1603439773
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 192854350
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2835276183
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 245548093
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 73147282
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 14199378
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 275686563
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 114870386
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 325476794
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 20581429
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 296459271
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 87818409
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 21769127
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 17043428
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 395990396
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 14511951
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2413882279
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 119711344
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 281448138
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 755953153
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 117662694
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2097571
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 11348282
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 200163448
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 742143
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 2979365176
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 14293310
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 133790890
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 180463340
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 62513246
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 337886919
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 166739404
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 15254807
+    },
+    {
+        "source": 3036907250,
+        "type": "follows",
+        "target": 5893702
+    }
+]

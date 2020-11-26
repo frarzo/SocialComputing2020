@@ -5,9 +5,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
+        "source": 3036907250,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -20,9 +20,9 @@
         "target": 19659370
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
+        "source": 132646210,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -35,9 +35,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
+        "source": 52059998,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -50,44 +50,24 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 19659370
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 93781753,
+        "source": 1556357336,
         "type": "following",
         "target": 15750573
+    },
+    {
+        "source": 15750573,
+        "type": "follows",
+        "target": 1556357336
+    },
+    {
+        "source": 778856886,
+        "type": "following",
+        "target": 15750573
+    },
+    {
+        "source": 15750573,
+        "type": "follows",
+        "target": 778856886
     },
     {
         "source": 1118909833942577153,
@@ -96,16 +76,6 @@
     },
     {
         "source": 2572511777,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 14616323,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 1972411447,
         "type": "following",
         "target": 15750573
     },
@@ -125,7 +95,7 @@
         "target": 15750573
     },
     {
-        "source": 93781753,
+        "source": 700064764,
         "type": "following",
         "target": 15750573
     },
@@ -133,31 +103,6 @@
         "source": 15750573,
         "type": "follows",
         "target": 700064764
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 700064764
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
     },
     {
         "source": 1064203950717583360,
@@ -185,24 +130,14 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1401748656
+        "source": 1401748656,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
         "type": "follows",
         "target": 1401748656
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
     },
     {
         "source": 959849838212014081,
@@ -225,9 +160,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 194989299
+        "source": 194989299,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -260,9 +195,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 945020688
+        "source": 945020688,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -270,9 +205,9 @@
         "target": 945020688
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 780874432927719424
+        "source": 780874432927719424,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -290,9 +225,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 897568340075479040
+        "source": 897568340075479040,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -300,9 +235,9 @@
         "target": 897568340075479040
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 896676717603028992
+        "source": 896676717603028992,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -320,9 +255,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 860098587287588864
+        "source": 860098587287588864,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -330,9 +265,9 @@
         "target": 860098587287588864
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 731124359117590528
+        "source": 731124359117590528,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -355,9 +290,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 857570979022876672
+        "source": 857570979022876672,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -375,9 +310,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1653261366
+        "source": 1653261366,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -425,9 +360,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3030560968
+        "source": 3030560968,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -450,9 +385,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 822933216206188544
+        "source": 822933216206188544,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -510,9 +445,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 748179418397421568
+        "source": 748179418397421568,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -540,9 +475,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 398537509
+        "source": 398537509,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -635,9 +570,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1582911193
+        "source": 1582911193,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -680,9 +615,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3751854082
+        "source": 3751854082,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -690,9 +625,9 @@
         "target": 3751854082
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 203866616
+        "source": 203866616,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -710,9 +645,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 476514758
+        "source": 476514758,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -735,16 +670,6 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
         "source": 3293206151,
         "type": "following",
         "target": 15750573
@@ -755,9 +680,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3226059106
+        "source": 3226059106,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -815,9 +740,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2785709353
+        "source": 2785709353,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -840,9 +765,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 517818047
+        "source": 517818047,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -880,9 +805,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2754412213
+        "source": 2754412213,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -915,9 +840,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 377344523
+        "source": 377344523,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -945,9 +870,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 234070123
+        "source": 234070123,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -955,9 +880,9 @@
         "target": 234070123
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2544647385
+        "source": 2544647385,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -965,24 +890,14 @@
         "target": 2544647385
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2244880545
+        "source": 2244880545,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
         "type": "follows",
         "target": 2244880545
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
     },
     {
         "source": 147299961,
@@ -1010,9 +925,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2328954662
+        "source": 2328954662,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1020,9 +935,9 @@
         "target": 2328954662
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2147987488
+        "source": 2147987488,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1030,9 +945,9 @@
         "target": 2147987488
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 944443345
+        "source": 944443345,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1040,9 +955,9 @@
         "target": 944443345
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
+        "source": 51023058,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1055,9 +970,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1877046548
+        "source": 1877046548,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1065,9 +980,9 @@
         "target": 1877046548
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 358026989
+        "source": 358026989,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1075,9 +990,9 @@
         "target": 358026989
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1934192923
+        "source": 1934192923,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1095,9 +1010,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1629889939
+        "source": 1629889939,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1105,9 +1020,9 @@
         "target": 1629889939
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1620225060
+        "source": 1620225060,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1115,9 +1030,9 @@
         "target": 1620225060
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1578022897
+        "source": 1578022897,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1140,9 +1055,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1109067043
+        "source": 1109067043,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1155,9 +1070,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 299659731
+        "source": 299659731,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1165,9 +1080,9 @@
         "target": 299659731
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1043021486
+        "source": 1043021486,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1185,9 +1100,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 375820392
+        "source": 375820392,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1195,9 +1110,9 @@
         "target": 375820392
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1074807847
+        "source": 1074807847,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1210,9 +1125,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1148229403
+        "source": 1148229403,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1230,9 +1145,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1037384052
+        "source": 1037384052,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1250,9 +1165,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 960887748
+        "source": 960887748,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1260,9 +1175,9 @@
         "target": 960887748
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 934228950
+        "source": 934228950,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1270,9 +1185,9 @@
         "target": 934228950
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 904174368
+        "source": 904174368,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1285,9 +1200,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 370102769
+        "source": 370102769,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1295,9 +1210,9 @@
         "target": 370102769
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 294119630
+        "source": 294119630,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1305,9 +1220,9 @@
         "target": 294119630
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 851254609
+        "source": 851254609,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1320,9 +1235,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 174991185
+        "source": 174991185,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1335,9 +1250,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 579115459
+        "source": 579115459,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1350,9 +1265,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 8762122
+        "source": 8762122,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1370,9 +1285,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
+        "source": 190161488,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1380,9 +1295,9 @@
         "target": 190161488
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 616572834
+        "source": 616572834,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1390,9 +1305,9 @@
         "target": 616572834
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 586366163
+        "source": 586366163,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1400,9 +1315,9 @@
         "target": 586366163
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 343998886
+        "source": 343998886,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1410,9 +1325,9 @@
         "target": 343998886
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 150732625
+        "source": 150732625,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1420,9 +1335,9 @@
         "target": 150732625
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 624208322
+        "source": 624208322,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1430,9 +1345,9 @@
         "target": 624208322
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 616564407
+        "source": 616564407,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1450,9 +1365,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 96127287
+        "source": 96127287,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1460,9 +1375,9 @@
         "target": 96127287
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 577243493
+        "source": 577243493,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1470,9 +1385,9 @@
         "target": 577243493
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 150346051
+        "source": 150346051,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1480,9 +1395,9 @@
         "target": 150346051
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 73926321
+        "source": 73926321,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1490,9 +1405,9 @@
         "target": 73926321
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 479798490
+        "source": 479798490,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1500,9 +1415,9 @@
         "target": 479798490
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 566703294
+        "source": 566703294,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1510,9 +1425,9 @@
         "target": 566703294
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 563979425
+        "source": 563979425,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1525,9 +1440,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 293483941
+        "source": 293483941,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1535,9 +1450,9 @@
         "target": 293483941
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 540985738
+        "source": 540985738,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1550,9 +1465,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 106505501
+        "source": 106505501,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1560,9 +1475,9 @@
         "target": 106505501
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 555461978
+        "source": 555461978,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1570,9 +1485,9 @@
         "target": 555461978
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
+        "source": 262236415,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1580,9 +1495,9 @@
         "target": 262236415
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 417189950
+        "source": 417189950,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1590,9 +1505,9 @@
         "target": 417189950
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 482995387
+        "source": 482995387,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1615,9 +1530,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 527454176
+        "source": 527454176,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1625,9 +1540,9 @@
         "target": 527454176
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 469631198
+        "source": 469631198,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1635,9 +1550,9 @@
         "target": 469631198
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 394665897
+        "source": 394665897,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1645,9 +1560,9 @@
         "target": 394665897
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 377571301
+        "source": 377571301,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1655,9 +1570,9 @@
         "target": 377571301
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 220020080
+        "source": 220020080,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1670,9 +1585,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 304540433
+        "source": 304540433,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1685,9 +1600,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 315707871
+        "source": 315707871,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1700,9 +1615,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 450594910
+        "source": 450594910,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1725,9 +1640,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 277667306
+        "source": 277667306,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -1910,9 +1825,9 @@
         "target": 15750573
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 73343
+        "source": 73343,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
@@ -2202,97 +2117,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 1111315973125169152
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 788839271239184385,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 3293206151,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 293483941
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 293483941
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
     },
     {
         "source": 15750573,
@@ -2302,82 +2127,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 19659370
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
-        "source": 93781753,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 41667342
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1111315973125169152
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 19659370
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 93781753,
-        "type": "following",
-        "target": 15750573
     },
     {
         "source": 15750573,
@@ -2387,67 +2137,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 700064764
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 700064764
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 778856886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 19659370
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1111315973125169152
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 93618186
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2754412213
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2754412213
     },
     {
         "source": 15750573,
@@ -2502,16 +2192,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1401748656
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1401748656
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 2388819163
     },
     {
@@ -2547,46 +2227,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 945020688
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 945020688
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 897568340075479040
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 897568340075479040
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 896676717603028992
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 896676717603028992
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 860098587287588864
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 860098587287588864
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 115180931
     },
     {
@@ -2607,57 +2247,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 731124359117590528
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 731124359117590528
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 857570979022876672
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 857570979022876672
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 571202103
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1653261366
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1653261366
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3030560968
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3030560968
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 822933216206188544
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 822933216206188544
     },
     {
         "source": 15750573,
@@ -2692,102 +2282,12 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 780874432927719424
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 780874432927719424
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3036907250
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1109067043
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1109067043
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 748179418397421568
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 748179418397421568
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2328954662
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2328954662
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 142837256
     },
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1582911193
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1582911193
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 540259669
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2544647385
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2544647385
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 203866616
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 203866616
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3751854082
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3751854082
     },
     {
         "source": 15750573,
@@ -2807,37 +2307,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 3226059106
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3226059106
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 1023096199
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 517818047
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 517818047
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
     },
     {
         "source": 15750573,
@@ -2852,37 +2322,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 2785709353
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2785709353
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 14749606
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 234070123
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 234070123
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2244880545
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2244880545
     },
     {
         "source": 15750573,
@@ -2897,72 +2337,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 944443345
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 944443345
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 354847710
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1877046548
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1877046548
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 358026989
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 358026989
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 1725341478
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2147987488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 2147987488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1934192923
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1934192923
     },
     {
         "source": 15750573,
@@ -2972,37 +2347,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1629889939
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1629889939
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 246318475
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1620225060
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1620225060
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 934228950
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 934228950
     },
     {
         "source": 15750573,
@@ -3012,47 +2357,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1578022897
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1578022897
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1043021486
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1043021486
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 299659731
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 299659731
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 29716049
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1074807847
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1074807847
     },
     {
         "source": 15750573,
@@ -3067,16 +2372,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1148229403
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1148229403
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 110509537
     },
     {
@@ -3087,42 +2382,12 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 1037384052
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1037384052
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 960887748
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 960887748
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 253046215
     },
     {
         "source": 15750573,
         "type": "follows",
         "target": 433226744
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 904174368
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 904174368
     },
     {
         "source": 15750573,
@@ -3162,92 +2427,12 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 294119630
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 294119630
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 851254609
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 851254609
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 579115459
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 579115459
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 132539757
     },
     {
         "source": 15750573,
         "type": "follows",
-        "target": 174991185
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 174991185
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 372843212
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 73343
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 73343
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 450594910
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 450594910
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 315707871
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 315707871
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 469631198
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 469631198
     },
     {
         "source": 15750573,
@@ -3267,87 +2452,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 398537509
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 398537509
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 616572834
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 616572834
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 586366163
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 586366163
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 8762122
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 8762122
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 577430083
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 377344523
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 377344523
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 343998886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 343998886
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 150732625
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 150732625
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
     },
     {
         "source": 15750573,
@@ -3382,16 +2487,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 527454176
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 527454176
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 50956443
     },
     {
@@ -3408,26 +2503,6 @@
         "source": 15750573,
         "type": "follows",
         "target": 623111545
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 616564407
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 616564407
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 624208322
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 624208322
     },
     {
         "source": 15750573,
@@ -3457,16 +2532,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 96127287
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 96127287
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 551653007
     },
     {
@@ -3482,57 +2547,7 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 375820392
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 375820392
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 194989299
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 194989299
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 476514758
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 476514758
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 577243493
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 577243493
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 128213903
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 73926321
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 73926321
     },
     {
         "source": 15750573,
@@ -3543,16 +2558,6 @@
         "source": 15750573,
         "type": "follows",
         "target": 385339360
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 479798490
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 479798490
     },
     {
         "source": 15750573,
@@ -3572,52 +2577,12 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 563979425
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 563979425
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 566703294
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 566703294
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 14583400
     },
     {
         "source": 15750573,
         "type": "follows",
-        "target": 293483941
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 293483941
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 175529610
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 150346051
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 150346051
     },
     {
         "source": 15750573,
@@ -3632,26 +2597,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 540985738
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 540985738
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 370102769
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 370102769
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 546315483
     },
     {
@@ -3660,19 +2605,14 @@
         "target": 456673160
     },
     {
-        "source": 15750573,
-        "type": "follows",
-        "target": 544360896
+        "source": 544360896,
+        "type": "following",
+        "target": 15750573
     },
     {
         "source": 15750573,
         "type": "follows",
         "target": 544360896
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 41667342
     },
     {
         "source": 15750573,
@@ -3697,62 +2637,12 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 106505501
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 106505501
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 474233138
     },
     {
         "source": 15750573,
         "type": "follows",
-        "target": 555461978
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 555461978
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 216744325
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 417189950
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 417189950
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 482995387
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 482995387
     },
     {
         "source": 15750573,
@@ -3767,42 +2657,12 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 377571301
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 377571301
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 394665897
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 394665897
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 485018563
     },
     {
         "source": 15750573,
         "type": "follows",
         "target": 251149608
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 220020080
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 220020080
     },
     {
         "source": 15750573,
@@ -3818,16 +2678,6 @@
         "source": 15750573,
         "type": "follows",
         "target": 490382218
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 304540433
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 304540433
     },
     {
         "source": 15750573,
@@ -3867,16 +2717,6 @@
     {
         "source": 15750573,
         "type": "follows",
-        "target": 277667306
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 277667306
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
         "target": 52352322
     },
     {
@@ -3888,200 +2728,5 @@
         "source": 15750573,
         "type": "follows",
         "target": 9507112
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1111315973125169152
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 813286,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 44196397
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1111315973125169152
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 262236415
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 571202103
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 132646210
-    },
-    {
-        "source": 93781753,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 44196397
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 19659370
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 718108213078568960
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 52059998
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 51023058
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3092629269
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 190161488
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 41667342
-    },
-    {
-        "source": 813286,
-        "type": "following",
-        "target": 15750573
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1556357336
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 897568340075479040
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 897568340075479040
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3030560968
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 3030560968
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 555461978
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 555461978
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 14146389
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1111315973125169152
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 19659370
-    },
-    {
-        "source": 15750573,
-        "type": "follows",
-        "target": 1111315973125169152
-    },
-    {
-        "source": 813286,
-        "type": "following",
-        "target": 15750573
     }
 ]
