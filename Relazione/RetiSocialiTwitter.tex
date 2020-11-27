@@ -43,7 +43,7 @@ json e compagnia bella con codice se serve \\
 Successivamente abbiamo scelto 5 followers e 5 following randomicamente per ognuno dei 5 account. In seguito, da ognuno di essi sono stati scelti altri 10 account followers e 10 account following sempre in maniera casuale.\\
 
 Infine, una volta ottenuti tutti gli account, abbiamo scaricato tutte le informazioni principali relative agli account mediante l'api.get user.\\
-Per un totale di 3101 nodi.
+Per un totale di 3103 nodi.
 \subsection{Creazione degli archi}
 Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione api.show friendship. Aggiungendo gli archi raffiguranti l'azione di follow al grafo.
 \subsubsection{Ottimizzazione archi}
@@ -74,9 +74,9 @@ Per il sottografo abbiamo :
 \subsection{Misure di centralità}
 Questi valori sono calcolabili su entrambi i grafi e sono i seguenti
 		\begin{itemize}
-			\item Betweenness: il valore 
-			\item Closness: 
-			\item Degree: 
+			\item Betweenness: come valore massimo abbiamo 0.000375 riferito al nodo di Damiano, seguito da eglu e micc. Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.0012)
+			\item Closness: come valore massimo 0.353 riferito al nodo di Damiano, seguito da... Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.653)
+			\item Degree: come valore massimo 0.254 riferito al nodo di Damiano, seguito da... Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.653)
 			\item In-centrality: 
 			\item Out-centrality: 
 			\item Degree: 
