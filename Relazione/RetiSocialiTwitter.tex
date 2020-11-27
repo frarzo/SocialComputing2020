@@ -2,6 +2,7 @@
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[total={170mm,267mm},top=15mm,bottom=15mm,left=21mm,right=21mm]{geometry}
+\usepackage{graphicx}
 
 \begin{document}
 
@@ -77,13 +78,11 @@ Questi valori sono calcolabili su entrambi i grafi e sono i seguenti
 			\item Betweenness: come valore massimo abbiamo 0.000375 riferito al nodo di Damiano, seguito da eglu e micc. Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.0012)
 			\item Closness: come valore massimo 0.353 riferito al nodo di Damiano, seguito da... Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.653)
 			\item Degree: come valore massimo 0.254 riferito al nodo di Damiano, seguito da... Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.653)
-			\item In-centrality: 
-			\item Out-centrality: 
-			\item Degree: 
+			\item In-centrality: 0.253, 0.469
+			\item Out-centrality: 0.00128 di Kevin Callegher, seguito da nodi che seguono 3 profili main e poi 2. ... 0.00238 sub 
 		\end{itemize}
 	Riportiamo i valori relativi al sottografo connesso perché i risultati sono coerenti ai valori ottenuti dal grafo principale.
 		\begin{itemize}
-		
 			\item PageRank: il nodo di Damiano Spina ha il valore più alto(0,243),seguito dai restanti nodi principali, in ordine di numero di followers.
 			\item Hits: 
 				\begin{itemize}
@@ -104,19 +103,24 @@ Vista la complessità computazionale dell'operazione di maxClique, l'abbiamo app
 \section{Smallworldness}
 Considerando il sottografo non direzionato il valore dei parametri:
 	\begin{itemize}
-	\item Omega: 0.00893
-	\item Sigma: 
+	\item Omega: 0.00683
+	\item Sigma: 0.98653
 \end{itemize}
 Il valore di omega vicino allo 0, indica che il grafo ha le caratteristiche di una rete piccolo mondo.
 I parametri sono stati calcolati con:\newline
 - niter = 10, Numero approssimativo di ridirezioni per arco, per calcolare il grafico casuale equivalente\newline
 - nrand = 2, Numero di grafici casuali generati per calcolare il coefficiente di clustering medio e la lunghezza del percorso medio più breve.\newline
 Abbiamo optato per valori più bassi rispetto a quelli di default (100,10), questo per ridurre la complessità computazionale del calcolo dei parametri.
-
+\pagebreak
 \section{Analisi delle correlazioni di Pearson e Kendall}
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.9\linewidth]{tabella}
+	\caption[Tabella della Correlazione di Pearson e Kendel relativa alle misure di centralità del grafo]{}
+\end{figure}
 
-\pagebreak
+
 
 \section{Conclusioni}
 Dopo quest'analisi possiamo affermare che il grafo sociale costruito evidenzia la centralità dei nodi principali nel grafo, ma possiamo anche notare la presenza di nodi completamente scollegati da esso.\\
