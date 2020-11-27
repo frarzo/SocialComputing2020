@@ -1,7 +1,6 @@
 \documentclass[a4paper,11pt]{report}
 \usepackage[italian]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage[latini]{inputenc}
 \usepackage[total={170mm,267mm},top=15mm,bottom=15mm,left=21mm,right=21mm]{geometry}
 
 \begin{document}
@@ -51,10 +50,13 @@ Per un totale di 3101 nodi.
 Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione api.show friendship. Aggiungendo gli archi raffiguranti l'azione di follow al grafo.
 <<<<<<< HEAD
 \subsubsection{Ottimizzazione archi}
+<<<<<<< HEAD
 *Al fine di ridurre significativamente il numero di chiamate all'API con il metodo show_friendship(), sarebbe stato possibile ottenere le relazioni di follow/following tra utenti analizzando la struttura dei dictionaries nei json [INSERIRE CONTESTO]*\\
 =======
 \subsection{Ottimizzazione archi}
 >>>>>>> parent of bbf6e69... Scrittura quasi completa della relazione
+=======
+>>>>>>> parent of e012aec... fixes
 E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a visualizzare direttamente i rispettivi followers, riducendo significativamente i costi in termine di richieste all'API. Ma per attinenza alla traccia abbiamo fatto un controllo completo per ogni nodo scaricato precedentemente.
 
 \section{Visualizzazione del grafo}
