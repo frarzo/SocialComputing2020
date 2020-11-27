@@ -14,7 +14,7 @@
   \vspace{3cm}
   {\Huge \textbf{Progetto di Social Computing}}\\
   \vspace{4cm}
-  {\Large  Parata Loris (144338) \\ Arzon Francesco (142439)\\ Dal Fabbro Lorenzo (142300)\\ Galvan Matteo (142985) \\ }
+  {\Large Arzon Francesco ()\\ Galvan Matteo (142985)\\ Parata Loris (144338)\\ Lorenzo -------- ()}\\
   \vspace{12cm}
   {\normalsize Anno accademico 2020/2021}
   \pagebreak
@@ -22,14 +22,16 @@
 
 \tableofcontents{}
 \pagebreak
-\chapter{Sottografo di Twitter}
-\section{Introduzione}
+
+\chapter{Introduzione}
 Il primo progetto di Social Computing consiste nello studio della rete sociale di 5 utenti di Twitter.\\
 Lo studio è stato svolto mediante la costruzione di un grafo, rappresentante  rete sociale, costituto dai 5 utenti principali e della loro relativa rete di contatti costituita dai loro follower, following e da rispettivi sottoinsiemi campionati in maniera random.
 In specifico abbiamo analizzato la relazione diretta di \textbf{follow} tra tutti i nodi del grafo ed i 5 profili scelti.
 
-\section{Costruzione del grafo}
-\subsection{Download dei nodi}
+\pagebreak
+
+\chapter{Costruzione del grafo}
+\section{Download dei nodi}
 Il primo passo consiste nello scaricare tutti i followers attraverso la api.followers di Twitter dei cinque nodi principali:
 
 \begin{itemize}
@@ -45,84 +47,73 @@ Successivamente abbiamo scelto 5 followers e 5 following randomicamente per ognu
 
 Infine, una volta ottenuti tutti gli account, abbiamo scaricato tutte le informazioni principali relative agli account mediante l'api.get user.\\
 Per un totale di 3101 nodi.
-\subsection{Creazione degli archi}
+\section{Creazione degli archi}
 Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione api.show friendship. Aggiungendo gli archi raffiguranti l'azione di follow al grafo.
+<<<<<<< HEAD
 \subsubsection{Ottimizzazione archi}
 *Al fine di ridurre significativamente il numero di chiamate all'API con il metodo show_friendship(), sarebbe stato possibile ottenere le relazioni di follow/following tra utenti analizzando la struttura dei dictionaries nei json [INSERIRE CONTESTO]*\\
+=======
+\subsection{Ottimizzazione archi}
+>>>>>>> parent of bbf6e69... Scrittura quasi completa della relazione
 E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a visualizzare direttamente i rispettivi followers, riducendo significativamente i costi in termine di richieste all'API. Ma per attinenza alla traccia abbiamo fatto un controllo completo per ogni nodo scaricato precedentemente.
 
-\subsection{Visualizzazione del grafo}
+\section{Visualizzazione del grafo}
 La visualizzazione interattiva del grafo costruito con le funzioni messe a disposizione di networkX avviene utilizzando la libreria apposita pyvis.
-\subsubsection{Ottimizzazione visualizzazione}
+\subsection{Ottimizzazione visualizzazione}
 E' possibile ridurre i costi per l'elaborazione grafica di costruzione del grafo impostando il parametro opzionale phisic = False. Questo parametro a discapito dell'interazione fisica nel trascinamento  dei nodi che avrebbero una risposta fisica, permette di risparmiare l'80 percento di tempo.
 
 \pagebreak
-\section{Analisi del grafo completo}
-Applicando le relative funzioni messe a disposizione dalla libreria di networkX abbiamo potuto stabilire che il grafo è:\\
-Il grafo da noi analizzato è risultato \textbf{non connesso}.\\
-Questo sottolinea che è errato dar per scontato che tutti gli utenti che seguono un determinato \\account \textbf{UtenteTwitter} a loro volta sono seguiti da utenti che seguono anche loro l' \textbf{UtenteTwitter}. \newline \\Nel caso in cui tenessimo traccia delle relazioni interne tra i nodi di secondo livello e quelli di terzo livello, considerando i path indiretti, allora sarebbe risultato connesso.\\ Ma questo dipende dalla componente casuale che sceglie da quali nodi scaricare i relativi follower dei follower.\newline
-Ecco perchè abbiamo deciso di procedere alla rimozione dei nodi sconnessi del grafo principale e di confrontare le proprietà dei due grafi dove è possibile.
-
-\subsection{Proprietà dei grafi}
-Il grafo completo risulta \textbf{non connesso}, mentre il suo sottografo è \textbf{connesso}.\\
-Ma entrambi risultano \textbf{non bipartiti}.\\
-Centro, Diametro e Raggio sono calcolabili solamente per il sottografo perchè il grafo completo essendo sconnesso ha valore di diametro e raggio infinito per definizione.\\
-Per il sottografo abbiamo :
+\chapter{Analisi del grafo completo}
+Applicando le relative funzioni messe a disposizione dalla libreria di networkX abbiamo potuto stabilire che il grafo è:
+\begin{itemize}
+	\item Il grafo da noi analizzato non è connesso.\\
+	E' errato pensare che tutti gli utenti che seguono l'account \textbf{UtenteTwitter} a loro volta hanno dei followers che seguono \textbf{UtenteTwitter}. Nel caso in cui tenessimo traccia delle relazioni interne tra i nodi di secondo livello e quelli di terzo livello, visualizzando i path indiretti, allora sarebbe risultato connesso. Ma questo dipende dalla componente casuale che sceglie da quali nodi scaricare i relativi follower dei follower. 
+	\item Il grafo è bipartito.
+	\item Le distanze sul grafo:
 		\begin{itemize}
-			\item Centro: i nodi di \textbf{Kevin Roitero}, \textbf{Gianluca Demartino} e \textbf{Damiano Spina},\\ tre dei 5 nodi principali.
-			\item Diametro:  \textbf{4}
-			\item Raggio: \textbf{2}
+			\item Centro: 
+			\item Diametro: 
+			\item Raggio: 
 		\end{itemize}
-\subsection{Misure di centralità}
-Questi valori sono calcolabili su entrambi i grafi e sono i seguenti
+	
+	\item Le misure di centralità del grafo:
 		\begin{itemize}
-			\item Betweenness: il valore 
+			\item Betweenness: 
 			\item Closness: 
 			\item Degree: 
 			\item In-centrality: 
 			\item Out-centrality: 
 			\item Degree: 
 		\end{itemize}
-	Riportiamo i valori relativi al sottografo connesso perché i risultati sono coerenti ai valori ottenuti dal grafo principale.
+	
+	\item Indici di ranking del grafo:
 		\begin{itemize}
-		
-			\item PageRank: il nodo di Damiano Spina ha il valore più alto(0,243),seguito dai restanti nodi principali, in ordine di numero di followers.
+			\item PageRank:
 			\item Hits: 
 				\begin{itemize}
-					\item Hubs: l'hub principale è Luke Gallagher, con valore 0.0015, che segue 3 profili su 5.
-					\item Authorities: la maggiore autority è Damiano con valore di 0.6, seguito dai restanti nodi principali
+					\item Hubs:
+					\item Authorities: 
 			\end{itemize}
 		\end{itemize}
-	Questo conferma come le autorità siano i nodi con più archi entranti, in questo caso i 5 nodi principali, mentre gli hubs siano i nodi che seguono, in questo caso, più nodi principali.
-\subsection{Albero di copertura minimo}
-Gli archi tra i nodi che compongo l'albero di copertura minimo è possibile visualizzarli all'interno file $SC\_progetto.ipynb$ .
-
+	\item L'albero di copertura è ..
+	\item Il valore di small-worldness sigma è : \\
+	E quello omega è \\
+	Questo indica che il nostro grafo è
+	\item Correlazione di Pearson e Kendal delle misure di centralità:\\ 
+	Inserire immagine della tabella 
+\end{itemize}
+\pagebreak
 \section{Analisi del sottografo dell'utente KevinRoitero}
 Considerando il sottografo dell'account KevinRoitero:
 
-Lo estraiamo utilizzando la funzione \textbf{nx.ego\_graph(sub\_twitter\_graph.reverse(), "3036907250")} sul sottografo,ma considerando la sua versione reverse, essendo che siamo interessati ai nodi che seguono Kevin (id: 3036907250).
-Vista la complessità computazionale dell'operazione di maxClique, l'abbiamo applicata su uno dei sottografi più piccoli del grafo principale. 
-
-\section{Smallworldness}
-Considerando il sottografo non direzionato il valore dei parametri:
-	\begin{itemize}
-	\item Omega: 0.00893
-	\item Sigma: 
-\end{itemize}
-Il valore di omega vicino allo 0, indica che il grafo ha le caratteristiche di una rete piccolo mondo.
-I parametri sono stati calcolati con:\newline
-- niter = 10, Numero approssimativo di ridirezioni per arco, per calcolare il grafico casuale equivalente\newline
-- nrand = 2, Numero di grafici casuali generati per calcolare il coefficiente di clustering medio e la lunghezza del percorso medio più breve.\newline
-Abbiamo optato per valori più bassi rispetto a quelli di default (100,10), questo per ridurre la complessità computazionale del calcolo dei parametri.
-
-\section{Analisi delle correlazioni di Pearson e Kendall}
-
+Vista la complessità computazionale dell'operazione di maxClique, l'abbiamo applicata su uno dei sottografi più piccoli del grafo principale.
 
 \pagebreak
 
-\section{Conclusioni}
-Dopo quest'analisi possiamo affermare che il grafo sociale costruito evidenzia la centralità dei nodi principali nel grafo, ma possiamo anche notare la presenza di nodi completamente scollegati da esso.\\
-I risultati ottenuti dalle funzioni ci permette di affermare che il sottografo connesso si tratta di una rete \textbf{"Piccolo Mondo"}. \\
+\chapter{Conclusioni}
+Dopo quest'analisi possiamo affermare che il grafo sociale costruito evidenzia la centralità dei nodi principali nel grado, ma possiamo anche notare la presenza di nodi completamente scollegati da esso.\\
+I risultati ottenuti dalle funzioni ci permette di affermare che \\
+Se ci fosse stata la possibilità di costruire l'intera rete sociale dei 5 nodi principali, con delle API di Twitter meno restringenti, avremmo potuto notare l'eventuale presenza di altri Hub o autorità.
 \pagebreak
 
 \end{document}\\
