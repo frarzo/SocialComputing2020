@@ -17,4 +17,3 @@
 \contentsline {section}{\numberline {1.4}Analisi del sottografo dell'utente KevinRoitero}{6}{}%
 \contentsline {section}{\numberline {1.5}Smallworldness}{6}{}%
 \contentsline {section}{\numberline {1.6}Analisi delle correlazioni di Pearson e Kendall}{7}{}%
-\contentsline {section}{\numberline {1.7}Conclusioni}{7}{}%
