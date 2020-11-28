@@ -88,34 +88,37 @@ for main in lista_edges:
         main_edges.append(relation)
 serialize_json("data_ids", "edges_of_twitter_graph.json", main_edges)
 #5.2 Creazione del grafo
-
-
 twitter_graph = nx.DiGraph(team="Loris Parata 144338, Francesco Arzon 142439, Lorenzo Dal Fabbro, Matteo Galvan")
+
+
 #Aggiunta dei nodi al grafo
 nodes_of_graph=read_json("data_ids/nodes_of_twitter_graph.json")
+
 for ids, node in nodes_of_graph.items():
     if ids in ["18932422", "132646210", "15750573", "19659370", "3036907250"]:
-        color="magenta"
+        colore='#ca054d'
+        print("culo")
     else:
-        color='cyan'
+        colore='#7899d4'
+
 
     twitter_graph.add_node(ids,
-                        id= ids,
-                        title= node["name"],
-                        color =color,
-                        width=width,
-                        physics=False,
-                        name=node['name'],
-                        screen_name=node['screen_name'],
-                        location=node['location'],
-                        followers_count=node["followers_count"],
-                        following_count=node["friends_count"],
-                        number_of_twitts=node["statuses_count"],
-                        data_creazione_profilo=node["created_at"]
-                        ) 
+                            id= ids,
+                            title= node["name"],
+                            color=colore,
+                            physics=False,#rende la visualizzazone del grafo più leggera
+                            name=node['name'],
+                            screen_name=node['screen_name'],
+                            location=node['location'],
+                            followers_count=node["followers_count"],
+                            following_count=node["friends_count"],
+                            number_of_twitts=node["statuses_count"],
+                            data_creazione_profilo=node["created_at"]
+                            ) 
 #Aggiunta degli archi al grafo, con controllo se è presente nel grafo il nodo source, per rilevare eventuali incongurenze
+main_edges=read_json("data_ids/edges_of_twitter_graph.json")
 for edge in main_edges:
-    if edge['type'] == 'following': #non follows, a causa dell'inversione source - targhet nella funzione di show_frienship
+    if edge['type'] == 'follows': 
         if twitter_graph.has_node(str(edge['source'])):
             twitter_graph.add_edge(str(edge['source']),str(edge['target']))
         else:
@@ -129,20 +132,18 @@ def disegna_grafo(grafo):
     nt = Network(
         height ="80%",
         width = "80%",
-        bgcolor="#222222",
+        bgcolor="#0e0f19",
         font_color="white",
-        heading= grafo,
+        heading=grafo,
         directed=True,
     )
-    nt.options(set_tree_spacing)
-    nt.set_trees
-    nt.show_buttons(filter_=None)
+    nt.barnes_hut()
+    #nt.show_buttons(filter_=None)
     nt.from_nx(grafo)
-    # nt.barnes_hut()
     nt.inherit_edge_colors(False)
-    # nt.set_edge_smooth("continuous") #cambia formato di visualizzazione degli archi
     neighbor_map = nt.get_adj_list()
-    
+    nt.set_edge_smooth("continuous") #cambia formato di visualizzazione degli archi
+
     for node in nt.nodes:
             node["value"] = len(neighbor_map[node["id"]])
     nt.show("grafo.html")
