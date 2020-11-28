@@ -24,13 +24,14 @@
 \pagebreak
 \chapter{Sottografo di Twitter}
 \section{Introduzione}
-Il primo progetto di Social Computing consiste nello studio della rete sociale di 5 utenti di Twitter.\\
-Lo studio è stato svolto mediante la costruzione di un grafo, rappresentante  rete sociale, costituto dai 5 utenti principali e della loro relativa rete di contatti costituita dai loro follower, following e da rispettivi sottoinsiemi campionati in maniera random.
-In specifico abbiamo analizzato la relazione diretta di \textbf{follow} tra tutti i nodi del grafo ed i 5 profili scelti.
+Questo primo progetto di Social Computing consiste nello studio della rete sociale di 5 utenti di Twitter.\\
+Lo studio è stato svolto mediante la costruzione di un sottografo di Twitter, costituto da cinque nodi che rappresentano gli utenti principali e della loro relativa rete di contatti costituita dai loro follower, following e da rispettivi sottoinsiemi campionati in maniera random.
+Nello specifico abbiamo analizzato la relazione diretta di \textbf{follows} tra tutti i nodi del grafo ed i cinque profili scelti.
 
 \section{Costruzione del grafo}
+
 \subsection{Download dei nodi}
-Il primo passo consiste nello scaricare tutti i followers attraverso la api.followers di Twitter dei cinque nodi principali:
+Il primo passo consiste nello scaricare tutti i followers attraverso la \textbf{api.followers()} di Twitter dei cinque nodi principali:
 
 \begin{itemize}
 \item @Mizzaro
@@ -39,21 +40,67 @@ Il primo passo consiste nello scaricare tutti i followers attraverso la api.foll
 \item @eglu81
 \item @KevinRoitero
  \end{itemize}
-json e compagnia bella con codice se serve \\
-\setlength{\parindent}{0pt} 
-Successivamente abbiamo scelto 5 followers e 5 following randomicamente per ognuno dei 5 account. In seguito, da ognuno di essi sono stati scelti altri 10 account followers e 10 account following sempre in maniera casuale.\\
 
-Infine, una volta ottenuti tutti gli account, abbiamo scaricato tutte le informazioni principali relative agli account mediante l'api.get user.\\
-Per un totale di 3103 nodi.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.4\linewidth]{followers}
+	\label{fig:followers}
+\end{figure}
+
+
+
+\setlength{\parindent}{0pt}
+L'uso della funzione \textbf{Cursor()} ci permette di restituire i dati richiesti ad una certa API in pagine. I parametri di questa funzione sono:\\ \pagebreak \\
+-\textbf{api.followers}: l'api desiderata, seguita dai parametri necessari ad essa.\\
+-\textbf{id}: utente, indica l'id dello user "target" a cui siamo interessati\\
+-\textbf{skip\_status= True}: in modo che gli stati non verranno inclusi negli oggetti utente restituiti.\\
+-\textbf{include\_user\_entities= False}: in modo da non includere l'oggetto utente "entities"\\
+\textbf{.items()} ci permette di indicare l'eventuale la grandezza desiderata del blocco di dati richiesto.\\ \medskip
+Lo stesso procedimento è stato effettuato per i rispettivi following di ogni nodo principale, utilizzando la \textbf{api.friends()}.
+
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{random_followers}
+	\label{fig:followers}
+\end{figure}
+
+Successivamente abbiamo selezionato gli \textbf{id} di 5 followers e 5 following randomicamente per ognuno dei 5 account. Da ognuno di essi sono stati scelti e scaricati gli id di altri 10 account followers e 10 account following sempre in maniera casuale.\\
+
+Infine, una volta ottenuti tutti gli account, abbiamo scaricato tutte le informazioni principali relative agli account mediante la \textbf{api.get user()}, che ha come parametro l'\textbf{id} di un account precedentemente individuato.\\
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.4\linewidth]{api_get_user}
+	\label{fig:apigetuser}
+\end{figure}
+
+Per un totale di \textbf{3103 nodi}.
 \subsection{Creazione degli archi}
-Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione api.show friendship. Aggiungendo gli archi raffiguranti l'azione di follow al grafo.
-\subsubsection{Ottimizzazione archi}
-E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a visualizzare direttamente i rispettivi followers, riducendo significativamente i costi in termine di richieste all'API. Ma per attinenza alla traccia abbiamo fatto un controllo completo per ogni nodo scaricato precedentemente.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{api_show_friendships}
+	\label{fig:apishowfriendships}
+\end{figure}
 
+Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione \textbf{api.show friendship()}. Aggiungendo gli archi raffiguranti l'azione di follows un file json, indicando nodo sorgente, tipo di relazione e nodo target. Il try-catch è stato utilizzato per rilevare eventuali nodi problematici.\pagebreak \\
+Questa operazione, essendo molto costosa temporalmente, è stata effettuata modificando il codice in maniera tale da poterlo eseguire, con chiavi di autenticazione developer diverse, per ogni singolo utente. In modo da parallelizzare l'operazione, che costava circa 5 ore di tempo per singolo utente, a causa dei limiti temporali di 180 richieste ogni 15 minuti di all'api Twitter. Tutti gli archi sono stati uniti in un unico file json. Abbiamo ottenuto un totale di \textbf{1922 archi}.
+\subsubsection{Ottimizzazione archi}
+E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a visualizzare direttamente i rispettivi followers, con la \textbf{api.followers()}, riducendo significativamente i costi in termine di richieste all'API. Ma per attinenza alla traccia abbiamo fatto un controllo completo per ogni nodo scaricato precedentemente.
+\subsection{Creazione del grafo}
+La costruzione del grafo è stata effettuata mediante l'utilizzo delle funzioni messe a disposizione di networkx. 
+%IMMAGINE DA AGGIUNGERE
+\\
+Abbiamo inserito i nodi al grafo mediante la funzione \textbf{add\_node()}. Indicando come parametri:\\
+-ids: identificatore del nodo\\
+-id di visualizzazione\\
+-title: il titolo visualizzato dal nodo\\
+-colore: colore del nodo\\
+-phisics: per abilitare o meno l'influenza del nodo sulla fisica del grafo\\
+-i restanti attributi del nodo.\\
 \subsection{Visualizzazione del grafo}
 La visualizzazione interattiva del grafo costruito con le funzioni messe a disposizione di networkX avviene utilizzando la libreria apposita pyvis.
 \subsubsection{Ottimizzazione visualizzazione}
-E' possibile ridurre i costi per l'elaborazione grafica di costruzione del grafo impostando il parametro opzionale phisic = False. Questo parametro a discapito dell'interazione fisica nel trascinamento  dei nodi che avrebbero una risposta fisica, permette di risparmiare l'80 percento di tempo.
+E' possibile ridurre i costi per l'elaborazione grafica di costruzione del grafo impostando il parametro opzionale phisic = False. Questo parametro a discapito dell'interazione fisica nel trascinamento  dei nodi che avrebbero una risposta fisica, permette di risparmiare l'80 percento del tempo di rendering.
 
 \pagebreak
 \section{Analisi del grafo completo}
@@ -61,6 +108,15 @@ Applicando le relative funzioni messe a disposizione dalla libreria di networkX 
 Il grafo da noi analizzato è risultato \textbf{non connesso}.\\
 Questo sottolinea che è errato dar per scontato che tutti gli utenti che seguono un determinato \\account \textbf{UtenteTwitter} a loro volta sono seguiti da utenti che seguono anche loro l' \textbf{UtenteTwitter}. \newline \\Nel caso in cui tenessimo traccia delle relazioni interne tra i nodi di secondo livello e quelli di terzo livello, considerando i path indiretti, allora sarebbe risultato connesso.\\ Ma questo dipende dalla componente casuale che sceglie da quali nodi scaricare i relativi follower dei follower.\newline
 Ecco perchè abbiamo deciso di procedere alla rimozione dei nodi sconnessi del grafo principale e di confrontare le proprietà dei due grafi dove è possibile.
+
+\subsection{Rimozione dei nodi sconnessi}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.6\linewidth]{rimozione_nodi_sconnessi}
+	\label{fig:rimozionenodisconnessi}
+\end{figure}
+Questo codice ci permette di rimuovere dal grafo tutti i nodi che hanno \textbf{out-degree = 0}, cioè i nodi che non hanno archi uscenti.E nel nostro caso di ricerca dei follower,questa condizione basta per escludere i nodi sconnessi.\\
+Otteniamo un grafo con soli \textbf{1679 nodi}.
 
 \subsection{Proprietà dei grafi}
 Il grafo completo risulta \textbf{non connesso}, mentre il suo sottografo è \textbf{connesso}.\\
@@ -73,24 +129,28 @@ Per il sottografo abbiamo :
 			\item Raggio: \textbf{2}
 		\end{itemize}
 \subsection{Misure di centralità}
-Questi valori sono calcolabili su entrambi i grafi e sono i seguenti
+
+Per le misure di Betweenness, Closness, Degree e In-centrality, otteniamo  valori massimi riferiti al nodo di damiano10, seguito da eglu81,Miccighel e dai restanti nodi principali.\\Per quanto riguarda l'out-centrality abbiamo come valore massimo un nodo che segue tre profili principali, per poi andare a decrescere per chi ne segue due e così via.
 		\begin{itemize}
-			\item Betweenness: come valore massimo abbiamo 0.000375 riferito al nodo di Damiano, seguito da eglu e micc. Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.0012)
-			\item Closness: come valore massimo 0.353 riferito al nodo di Damiano, seguito da... Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.653)
-			\item Degree: come valore massimo 0.254 riferito al nodo di Damiano, seguito da... Si presenta un valore coerente anche nel sottografo, ma con valori più elevati,(0.653)
-			\item In-centrality: 0.253, 0.469
-			\item Out-centrality: 0.00128 di Kevin Callegher, seguito da nodi che seguono 3 profili main e poi 2. ... 0.00238 sub 
+			\item Betweenness: valore massimo: 0.000375 \\sottografo 0.0012 
+			\item Closness: valore massimo 0.353 
+			\\sottografo: 0.653
+			\item Degree: valore massimo 0.254 
+			\\sottografo 0.653
+			\item In-centrality: 0.253 \\sottografo:0.469
+			\item Out-centrality: 0.00128 di Kevin Callegher \\sottografo: 0.00238 
 		\end{itemize}
-	Riportiamo i valori relativi al sottografo connesso perché i risultati sono coerenti ai valori ottenuti dal grafo principale.
+	Riportiamo anche i valori relativi al sottografo connesso che hanno un andamento coerente con il grafo grafo principale, ma i valori sono più alti perché abbiamo un numero di nodi complessivo minore.
 		\begin{itemize}
-			\item PageRank: il nodo di Damiano Spina ha il valore più alto(0,243),seguito dai restanti nodi principali, in ordine di numero di followers.
+			\item PageRank: grafo completo :0,216\\  
+			sottografo: 0,243 \\per entrambi i valori si presentano in ordine al numero di followers che ogni account possiede.
 			\item Hits: 
 				\begin{itemize}
 					\item Hubs: l'hub principale è Luke Gallagher, con valore 0.0015, che segue 3 profili su 5.
-					\item Authorities: la maggiore autority è Damiano con valore di 0.6, seguito dai restanti nodi principali
+					\item Authorities: la maggiore autority è Damiano con valore di 0.624, seguito dai restanti nodi principali.
 			\end{itemize}
 		\end{itemize}
-	Questo conferma come le autorità siano i nodi con più archi entranti, in questo caso i 5 nodi principali, mentre gli hubs siano i nodi che seguono, in questo caso, più nodi principali.
+	Dai risultati notiamo come l'algoritmo di \textbf{PageRank} sia influenzato dal numero di nodi complessivi rispetto a \textbf{HITS}. Inoltre,conferma come le autorità siano i nodi con più archi entranti, in questo caso i 5 nodi principali, mentre gli hubs siano i nodi che seguono, in questo caso, più nodi principali(Luke Gallagher segue 3 nodi su 5).
 \subsection{Albero di copertura minimo}
 Gli archi tra i nodi che compongo l'albero di copertura minimo è possibile visualizzarli all'interno file $SC\_progetto.ipynb$ .
 
