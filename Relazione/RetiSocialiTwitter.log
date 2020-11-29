@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  29 NOV 2020 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  29 NOV 2020 19:45
 entering extended mode
 **./RetiSocialiTwitter.tex
 (RetiSocialiTwitter.tex
@@ -228,91 +228,136 @@ Capitolo 1.
 <followers.png, id=12, 187.70125pt x 171.13937pt>
 File: followers.png Graphic file (type png)
 <use followers.png>
-Package pdftex.def Info: followers.png  used on input line 46.
+Package pdftex.def Info: followers.png  used on input line 42.
 (pdftex.def)             Requested size: 191.1996pt x 174.34047pt.
-[2
-
- <./followers.png>]
-<random_followers.png, id=17, 402.00188pt x 270.00874pt>
+<random_followers.png, id=13, 402.00188pt x 270.00874pt>
 File: random_followers.png Graphic file (type png)
 <use random_followers.png>
-Package pdftex.def Info: random_followers.png  used on input line 64.
+Package pdftex.def Info: random_followers.png  used on input line 60.
 (pdftex.def)             Requested size: 382.40651pt x 256.84468pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
+[2
+
+ <./followers.png>]
 <api_get_user.png, id=19, 256.45813pt x 162.10562pt>
 File: api_get_user.png Graphic file (type png)
 <use api_get_user.png>
-Package pdftex.def Info: api_get_user.png  used on input line 73.
+Package pdftex.def Info: api_get_user.png  used on input line 69.
 (pdftex.def)             Requested size: 191.1996pt x 120.85664pt.
 <api_show_friendships.png, id=20, 453.19313pt x 169.63374pt>
 File: api_show_friendships.png Graphic file (type png)
 <use api_show_friendships.png>
-Package pdftex.def Info: api_show_friendships.png  used on input line 81.
+Package pdftex.def Info: api_show_friendships.png  used on input line 77.
 (pdftex.def)             Requested size: 382.40651pt x 143.13846pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <./random_followers.png> <./api_get_user.png>]
-<aggiunta_nodi.png, id=26, 549.55313pt x 270.51062pt>
+ [3 <./random_followers.png> <./api_get_user.png> <./api_show_friendships.png>]
+<aggiunta_nodi.png, id=27, 548.0475pt x 253.94875pt>
 File: aggiunta_nodi.png Graphic file (type png)
 <use aggiunta_nodi.png>
-Package pdftex.def Info: aggiunta_nodi.png  used on input line 93.
-(pdftex.def)             Requested size: 382.40651pt x 188.24167pt.
+Package pdftex.def Info: aggiunta_nodi.png  used on input line 89.
+(pdftex.def)             Requested size: 334.60295pt x 155.048pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--105
+Underfull \hbox (badness 10000) in paragraph at lines 86--101
 
  []
 
-<aggiunta_archi.png, id=27, 584.1825pt x 116.93687pt>
+<aggiunta_archi.png, id=28, 721.69624pt x 129.98563pt>
 File: aggiunta_archi.png Graphic file (type png)
 <use aggiunta_archi.png>
-Package pdftex.def Info: aggiunta_archi.png  used on input line 108.
-(pdftex.def)             Requested size: 430.20276pt x 86.11795pt.
+Package pdftex.def Info: aggiunta_archi.png  used on input line 104.
+(pdftex.def)             Requested size: 382.40651pt x 68.87617pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--116
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
-[4 <./api_show_friendships.png> <./aggiunta_nodi.png>] [5 <./aggiunta_archi.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
+[4 <./aggiunta_nodi.png> <./aggiunta_archi.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 119--123
 
  []
 
-<rimozione_nodi_sconnessi.png, id=37, 297.11pt x 104.39pt>
+<rimozione_nodi_sconnessi.png, id=34, 297.11pt x 104.39pt>
 File: rimozione_nodi_sconnessi.png Graphic file (type png)
 <use rimozione_nodi_sconnessi.png>
-Package pdftex.def Info: rimozione_nodi_sconnessi.png  used on input line 132.
+Package pdftex.def Info: rimozione_nodi_sconnessi.png  used on input line 127.
 (pdftex.def)             Requested size: 286.8067pt x 100.77393pt.
-[6 <./rimozione_nodi_sconnessi.png>]
-Overfull \hbox (7.4014pt too wide) in paragraph at lines 177--179
+[5 <./rimozione_nodi_sconnessi.png>]
+<btw.png, id=39, 197.23688pt x 152.57pt>
+File: btw.png Graphic file (type png)
+<use btw.png>
+Package pdftex.def Info: btw.png  used on input line 154.
+(pdftex.def)             Requested size: 152.96552pt x 118.32433pt.
+<cls.png, id=40, 199.24437pt x 149.55875pt>
+File: cls.png Graphic file (type png)
+<use cls.png>
+Package pdftex.def Info: cls.png  used on input line 155.
+(pdftex.def)             Requested size: 152.96552pt x 114.82512pt.
+<degree.png, id=41, 252.945pt x 202.25563pt>
+File: degree.png Graphic file (type png)
+<use degree.png>
+Package pdftex.def Info: degree.png  used on input line 156.
+(pdftex.def)             Requested size: 152.96552pt x 122.3141pt.
+<in-degree.png, id=42, 198.7425pt x 145.54375pt>
+File: in-degree.png Graphic file (type png)
+<use in-degree.png>
+Package pdftex.def Info: in-degree.png  used on input line 163.
+(pdftex.def)             Requested size: 234.22571pt x 171.53358pt.
+<out-degree.png, id=43, 287.57437pt x 207.77625pt>
+File: out-degree.png Graphic file (type png)
+<use out-degree.png>
+Package pdftex.def Info: out-degree.png  used on input line 164.
+(pdftex.def)             Requested size: 234.22571pt x 169.23627pt.
+ [6 <./btw.png> <./cls.png> <./degree.png> <./in-degree.png> <./out-degree.png>
+]
+<pagerank.png, id=53, 273.52188pt x 203.25937pt>
+File: pagerank.png Graphic file (type png)
+<use pagerank.png>
+Package pdftex.def Info: pagerank.png  used on input line 178.
+(pdftex.def)             Requested size: 152.96552pt x 113.67249pt.
+<authorities.png, id=54, 258.46562pt x 202.7575pt>
+File: authorities.png Graphic file (type png)
+<use authorities.png>
+Package pdftex.def Info: authorities.png  used on input line 179.
+(pdftex.def)             Requested size: 152.96552pt x 120.00023pt.
+<hubs.png, id=55, 285.065pt x 200.24812pt>
+File: hubs.png Graphic file (type png)
+<use hubs.png>
+Package pdftex.def Info: hubs.png  used on input line 180.
+(pdftex.def)             Requested size: 152.96552pt x 107.45099pt.
+<cricca_kevin.png, id=56, 314.17375pt x 188.705pt>
+File: cricca_kevin.png Graphic file (type png)
+<use cricca_kevin.png>
+Package pdftex.def Info: cricca_kevin.png  used on input line 193.
+(pdftex.def)             Requested size: 278.54471pt x 167.30511pt.
+
+Overfull \hbox (7.4014pt too wide) in paragraph at lines 190--196
 []\OT1/cmr/m/n/10.95 Lo estra-ia-mo uti-liz-zan-do la fun-zio-ne \OT1/cmr/bx/n/
 10.95 nx.ego[]graph(sub[]twitter[]graph.reverse(), "3036907250")
  []
 
-[7] [8]
-<tabella.png, id=50, 458.71375pt x 340.77313pt>
+[7 <./pagerank.png> <./authorities.png> <./hubs.png> <./cricca_kevin.png>]
+<tabella.png, id=65, 444.15938pt x 357.335pt>
 File: tabella.png Graphic file (type png)
 <use tabella.png>
-Package pdftex.def Info: tabella.png  used on input line 197.
-(pdftex.def)             Requested size: 478.00632pt x 355.12366pt.
- [9 <./tabella.png>] (RetiSocialiTwitter.aux)
+Package pdftex.def Info: tabella.png  used on input line 215.
+(pdftex.def)             Requested size: 478.00632pt x 384.56383pt.
+
+[8 <./tabella.png>] (RetiSocialiTwitter.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2950 strings out of 480236
- 43635 string characters out of 2880557
- 344252 words of memory out of 3000000
- 19500 multiletter control sequences out of 15000+200000
+ 3014 strings out of 480236
+ 44537 string characters out of 2880557
+ 343274 words of memory out of 3000000
+ 19564 multiletter control sequences out of 15000+200000
  540898 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,6n,66p,585b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -323,9 +368,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/loris/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/loris/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on RetiSocialiTwitter.pdf (10 pages, 327383 bytes).
+Output written on RetiSocialiTwitter.pdf (9 pages, 1649031 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

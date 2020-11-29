@@ -34,12 +34,8 @@ Nello specifico abbiamo analizzato la relazione diretta di \textbf{follows} tra 
 Il primo passo consiste nello scaricare tutti i followers attraverso la \textbf{api.followers()} di Twitter dei cinque nodi principali:
 
 \begin{itemize}
-\item @Mizzaro
-\item @damiano10
-\item @Miccighel\_
-\item @eglu81
-\item @KevinRoitero
- \end{itemize}
+	\item @Mizzaro, @damiano10, @Miccighel\_, @eglu81, @KevinRoitero
+\end{itemize}
 
 \begin{figure}[h]
 	\centering
@@ -50,7 +46,7 @@ Il primo passo consiste nello scaricare tutti i followers attraverso la \textbf{
 
 
 \setlength{\parindent}{0pt}
-L'uso della funzione \textbf{Cursor()} ci permette di restituire i dati richiesti ad una certa API in pagine. I parametri di questa funzione sono:\\ \pagebreak \\
+L'uso della funzione \textbf{Cursor()} ci permette di restituire i dati richiesti ad una certa API in pagine. I parametri di questa funzione sono: \\
 -\textbf{api.followers}: l'api desiderata, seguita dai parametri necessari ad essa.\\
 -\textbf{id}: utente, indica l'id dello user "target" a cui siamo interessati\\
 -\textbf{skip\_status= True}: in modo che gli stati non verranno inclusi negli oggetti utente restituiti.\\
@@ -82,7 +78,7 @@ Per un totale di \textbf{3103 nodi}.
 	\label{fig:apishowfriendships}
 \end{figure}
 
-Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione \textbf{api.show\_friendship()}. Aggiungendo gli archi raffiguranti l'azione di follows un file json, indicando nodo sorgente, tipo di relazione e nodo target. Il try-catch è stato utilizzato per rilevare eventuali nodi problematici.\pagebreak \\
+Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione \textbf{api.show\_friendship()}. Aggiungendo gli archi raffiguranti l'azione di follows un file json, indicando nodo sorgente, tipo di relazione e nodo target. Il try-catch è stato utilizzato per rilevare eventuali nodi problematici.\\
 Questa operazione, essendo molto costosa temporalmente, è stata effettuata modificando il codice in maniera tale da poterlo eseguire, con chiavi di autenticazione developer diverse, per ogni singolo utente. In modo da parallelizzare l'operazione, che costava circa 5 ore di tempo per singolo utente, a causa dei limiti temporali di 180 richieste ogni 15 minuti di all'api Twitter. Tutti gli archi sono stati uniti in un unico file json. Abbiamo ottenuto un totale di \textbf{1922 archi}.
 \subsubsection{Ottimizzazione archi}
 E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a visualizzare direttamente i rispettivi followers, con la \textbf{api.followers()}, riducendo significativamente i costi in termine di richieste all'API. Ma per attinenza alla traccia abbiamo fatto un controllo completo per ogni nodo scaricato precedentemente.
@@ -90,7 +86,7 @@ E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a 
 La costruzione del grafo è stata effettuata mediante l'utilizzo delle funzioni messe a disposizione di networkx. 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.8\linewidth]{aggiunta_nodi}
+	\includegraphics[width=0.7\linewidth]{aggiunta_nodi}
 	\label{fig:aggiuntanodi}
 \end{figure}
 \\
@@ -105,7 +101,7 @@ Abbiamo inserito i nodi al grafo mediante la funzione \textbf{add\_node()}. Indi
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.9\linewidth]{aggiunta_archi}
+	\includegraphics[width=0.8\linewidth]{aggiunta_archi}
 	\label{fig:aggiuntaarchi}
 \end{figure}
 
@@ -115,11 +111,10 @@ Mentre per aggiungere gli archi al grafo abbiamo controllato se è presente il n
 - colore desiderato per l'arco durante la visualizzazione\\
 
 \subsection{Visualizzazione del grafo}
-La visualizzazione interattiva del grafo costruito con le funzioni messe a disposizione di networkX avviene utilizzando la libreria apposita pyvis.
+La visualizzazione interattiva del grafo costruito con le funzioni messe a disposizione di networkX avviene utilizzando la libreria apposita pyvis. 
 \subsubsection{Ottimizzazione visualizzazione}
 E' possibile ridurre i costi per l'elaborazione grafica di costruzione del grafo impostando il parametro opzionale phisic = False. Questo parametro a discapito dell'interazione fisica nel trascinamento  dei nodi che avrebbero una risposta fisica, permette di risparmiare l'80 percento del tempo di rendering.
 
-\pagebreak
 \section{Analisi del grafo completo}
 Applicando le relative funzioni messe a disposizione dalla libreria di networkX abbiamo potuto stabilire che il grafo è:\\
 Il grafo da noi analizzato è risultato \textbf{non connesso}.\\
@@ -141,7 +136,7 @@ Ma entrambi risultano \textbf{non bipartiti}.\\
 Centro, Diametro e Raggio sono calcolabili solamente per il sottografo perchè il grafo completo essendo sconnesso ha valore di diametro e raggio infinito per definizione.\\
 Per il sottografo abbiamo :
 		\begin{itemize}
-			\item Centro: i nodi di \textbf{Kevin Roitero}, \textbf{Gianluca Demartino} e \textbf{Damiano Spina},\\ tre dei 5 nodi principali.
+			\item Centro: ritroviamo i nodi di \textbf{Kevin Roitero}, \textbf{Gianluca Demartino} e \textbf{Damiano Spina},\\ tre dei 5 nodi principali.
 			\item Diametro:  \textbf{4}
 			\item Raggio: \textbf{2}
 		\end{itemize}
@@ -153,11 +148,23 @@ Per le misure di Betweenness, Closness, Degree e In-centrality, otteniamo  valor
 			\item Closness: \\valore massimo: 0.353 
 			\\sottografo: 0.653
 			\item Degree: \\valore massimo: 0.254 
-			\\sottografo: 0.653
+			\\sottografo: 0.471
+		\end{itemize}
+		\begin{figure}[h]
+		\includegraphics[width=.32\textwidth]{btw}\hfill
+		\includegraphics[width=.32\textwidth]{cls}\hfill
+		\includegraphics[width=.32\textwidth]{degree}
+		\end{figure}
+		\begin{itemize}
 			\item In-centrality: 0.253 \\sottografo: 0.469
 			\item Out-centrality: 0.00128 di Kevin Callegher \\sottografo: 0.00238 
 		\end{itemize}
-	Riportiamo anche i valori relativi al sottografo connesso che hanno un andamento coerente con il grafo grafo principale, ma i valori sono più alti perché abbiamo un numero di nodi complessivo minore.
+	\begin{figure}[h]
+		\includegraphics[width=.49\textwidth]{in-degree}\hfill
+		\includegraphics[width=.49\textwidth]{out-degree}
+	\end{figure}
+
+	Riportiamo anche i valori relativi al sottografo connesso perchè hanno un andamento coerente con il grafo grafo principale, ma i valori sono più alti perché abbiamo un numero di nodi complessivo minore.
 		\begin{itemize}
 			\item PageRank:\\ grafo completo: 0,216\\  
 			sottografo: 0,243 \\per entrambi i valori si presentano in ordine al numero di followers che ogni account possiede.
@@ -167,16 +174,28 @@ Per le misure di Betweenness, Closness, Degree e In-centrality, otteniamo  valor
 					\item Authorities: la maggiore autority è Damiano con valore di 0.624, seguito dai restanti nodi principali.
 			\end{itemize}
 		\end{itemize}
-	Dai risultati notiamo come l'algoritmo di \textbf{PageRank} sia influenzato dal numero di nodi complessivi rispetto a \textbf{HITS}. Inoltre,conferma come le autorità siano i nodi con più archi entranti, in questo caso i 5 nodi principali, mentre gli hubs siano i nodi che seguono, in questo caso, più nodi principali(Luke Gallagher segue 3 nodi su 5).
+		\begin{figure}[h]
+		\includegraphics[width=.32\textwidth]{pagerank}\hfill
+		\includegraphics[width=.32\textwidth]{authorities}\hfill
+		\includegraphics[width=.32\textwidth]{hubs}
+		\end{figure}
+	Dai risultati notiamo come l'algoritmo di \textbf{PageRank} sia influenzato dal numero di nodi complessivi rispetto a \textbf{HITS}. Inoltre,conferma come le autorità siano i nodi con più archi entranti, in questo caso i 5 nodi principali, mentre gli hubs,che sono molto più numerosi, siano i nodi con più nodi uscenti(Luke Gallagher segue 3 nodi su 5).
+
 \subsection{Albero di copertura minimo}
 Gli archi tra i nodi che compongo l'albero di copertura minimo è possibile visualizzarli all'interno file $SC\_progetto.ipynb$ .
 
 \section{Analisi del sottografo dell'utente KevinRoitero}
 Considerando il sottografo dell'account KevinRoitero:
 
-Lo estraiamo utilizzando la funzione \textbf{nx.ego\_graph(sub\_twitter\_graph.reverse(), "3036907250")} sul sottografo,ma considerando la sua versione reverse, essendo che siamo interessati ai nodi che seguono Kevin (id: 3036907250).
-Vista la complessità computazionale dell'operazione di maxClique, l'abbiamo applicata su uno dei sottografi più piccoli del grafo principale. 
+Lo estraiamo utilizzando la funzione \textbf{nx.ego\_graph(sub\_twitter\_graph.reverse(), "3036907250")} sul sottografo,ma considerando la sua versione reverse, essendo che siamo interessati ai nodi che seguono Kevin (id: 3036907250).\\
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.35\linewidth]{cricca_kevin}
+	\label{fig:criccakevin}
+\end{figure}
 
+Vista la complessità computazionale dell'operazione di \textbf{maxClique}, l'abbiamo applicata su uno dei sottografi più piccoli del grafo principale. Notiamo nella cricca massima la presenza di un nodo utente al di fuori dei nodi principali (15455450).
+\pagebreak
 \section{Smallworldness}
 Considerando il sottografo non direzionato il valore dei parametri:
 	\begin{itemize}
@@ -189,10 +208,9 @@ I parametri sono stati calcolati con:\newline
 - niter = 15, indica il numero approssimativo di ridirezioni per arco, per calcolare il grafico casuale equivalente\newline
 - nrand = 4, indica il numero di grafici casuali generati per calcolare il coefficiente di clustering medio e la lunghezza del percorso medio più breve.\newline
 Abbiamo optato per valori più bassi rispetto a quelli di default (100,10), questo per ridurre la complessità computazionale del calcolo dei parametri.
-\pagebreak
 \section{Analisi delle correlazioni di Pearson e Kendall}
 
-\begin{figure}[ht]
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=1\linewidth]{tabella}
 	\caption[]{Tabella della Correlazione di Pearson e Kendel relativa alle misure di centralità del grafo}
@@ -202,4 +220,4 @@ Nella terza colonna i valore vicini all'1 indicano la presenza di correlazione l
 
 
 
-\end{document}\\
+\end{document}
