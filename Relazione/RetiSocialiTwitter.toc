@@ -7,13 +7,13 @@
 \contentsline {subsection}{\numberline {1.2.2}Creazione degli archi}{3}{}%
 \contentsline {subsubsection}{Ottimizzazione archi}{4}{}%
 \contentsline {subsection}{\numberline {1.2.3}Creazione del grafo}{4}{}%
-\contentsline {subsection}{\numberline {1.2.4}Visualizzazione del grafo}{4}{}%
-\contentsline {subsubsection}{Ottimizzazione visualizzazione}{4}{}%
-\contentsline {section}{\numberline {1.3}Analisi del grafo completo}{5}{}%
-\contentsline {subsection}{\numberline {1.3.1}Rimozione dei nodi sconnessi}{5}{}%
-\contentsline {subsection}{\numberline {1.3.2}Proprietà dei grafi}{5}{}%
-\contentsline {subsection}{\numberline {1.3.3}Misure di centralità}{5}{}%
-\contentsline {subsection}{\numberline {1.3.4}Albero di copertura minimo}{6}{}%
-\contentsline {section}{\numberline {1.4}Analisi del sottografo dell'utente KevinRoitero}{6}{}%
-\contentsline {section}{\numberline {1.5}Smallworldness}{6}{}%
-\contentsline {section}{\numberline {1.6}Analisi delle correlazioni di Pearson e Kendall}{7}{}%
+\contentsline {subsection}{\numberline {1.2.4}Visualizzazione del grafo}{5}{}%
+\contentsline {subsubsection}{Ottimizzazione visualizzazione}{5}{}%
+\contentsline {section}{\numberline {1.3}Analisi del grafo completo}{6}{}%
+\contentsline {subsection}{\numberline {1.3.1}Rimozione dei nodi sconnessi}{6}{}%
+\contentsline {subsection}{\numberline {1.3.2}Proprietà dei grafi}{6}{}%
+\contentsline {subsection}{\numberline {1.3.3}Misure di centralità}{6}{}%
+\contentsline {subsection}{\numberline {1.3.4}Albero di copertura minimo}{7}{}%
+\contentsline {section}{\numberline {1.4}Analisi del sottografo dell'utente KevinRoitero}{7}{}%
+\contentsline {section}{\numberline {1.5}Smallworldness}{7}{}%
+\contentsline {section}{\numberline {1.6}Analisi delle correlazioni di Pearson e Kendall}{9}{}%

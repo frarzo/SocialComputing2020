@@ -82,13 +82,17 @@ Per un totale di \textbf{3103 nodi}.
 	\label{fig:apishowfriendships}
 \end{figure}
 
-Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione \textbf{api.show friendship()}. Aggiungendo gli archi raffiguranti l'azione di follows un file json, indicando nodo sorgente, tipo di relazione e nodo target. Il try-catch è stato utilizzato per rilevare eventuali nodi problematici.\pagebreak \\
+Successivamente abbiamo controllato l'esistenza di una relazione tra tutti gli account scaricati ed i 5 nodi principali con la funzione \textbf{api.show\_friendship()}. Aggiungendo gli archi raffiguranti l'azione di follows un file json, indicando nodo sorgente, tipo di relazione e nodo target. Il try-catch è stato utilizzato per rilevare eventuali nodi problematici.\pagebreak \\
 Questa operazione, essendo molto costosa temporalmente, è stata effettuata modificando il codice in maniera tale da poterlo eseguire, con chiavi di autenticazione developer diverse, per ogni singolo utente. In modo da parallelizzare l'operazione, che costava circa 5 ore di tempo per singolo utente, a causa dei limiti temporali di 180 richieste ogni 15 minuti di all'api Twitter. Tutti gli archi sono stati uniti in un unico file json. Abbiamo ottenuto un totale di \textbf{1922 archi}.
 \subsubsection{Ottimizzazione archi}
 E' possibile rilevare tutti i nodi direttamente connessi ai 5 account andando a visualizzare direttamente i rispettivi followers, con la \textbf{api.followers()}, riducendo significativamente i costi in termine di richieste all'API. Ma per attinenza alla traccia abbiamo fatto un controllo completo per ogni nodo scaricato precedentemente.
 \subsection{Creazione del grafo}
 La costruzione del grafo è stata effettuata mediante l'utilizzo delle funzioni messe a disposizione di networkx. 
-%IMMAGINE DA AGGIUNGERE
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\linewidth]{aggiunta_nodi}
+	\label{fig:aggiuntanodi}
+\end{figure}
 \\
 Abbiamo inserito i nodi al grafo mediante la funzione \textbf{add\_node()}. Indicando come parametri:\\
 -ids: identificatore del nodo\\
@@ -96,7 +100,20 @@ Abbiamo inserito i nodi al grafo mediante la funzione \textbf{add\_node()}. Indi
 -title: il titolo visualizzato dal nodo\\
 -colore: colore del nodo\\
 -phisics: per abilitare o meno l'influenza del nodo sulla fisica del grafo\\
--i restanti attributi del nodo.\\
+-i restanti attributi del nodo.
+\newline
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.9\linewidth]{aggiunta_archi}
+	\label{fig:aggiuntaarchi}
+\end{figure}
+
+Mentre per aggiungere gli archi al grafo abbiamo controllato se è presente il nodo sorgente nel grafo con la funzione \textbf{has\_node()}, indicando l'id del nodo interessato, per rilevare eventuali incongurenze tra nodi scaricati e relazioni rilevate. Successivamente abbiamo aggiunto l'arco al grafo utilizzando la funzione \textbf{add\_edge()} indicando:\\
+- nodo sorgente\\
+- nodo target \\
+- colore desiderato per l'arco durante la visualizzazione\\
+
 \subsection{Visualizzazione del grafo}
 La visualizzazione interattiva del grafo costruito con le funzioni messe a disposizione di networkX avviene utilizzando la libreria apposita pyvis.
 \subsubsection{Ottimizzazione visualizzazione}
@@ -132,17 +149,17 @@ Per il sottografo abbiamo :
 
 Per le misure di Betweenness, Closness, Degree e In-centrality, otteniamo  valori massimi riferiti al nodo di damiano10, seguito da eglu81,Miccighel e dai restanti nodi principali.\\Per quanto riguarda l'out-centrality abbiamo come valore massimo un nodo che segue tre profili principali, per poi andare a decrescere per chi ne segue due e così via.
 		\begin{itemize}
-			\item Betweenness: valore massimo: 0.000375 \\sottografo 0.0012 
-			\item Closness: valore massimo 0.353 
+			\item Betweenness:\\ valore massimo: 0.000375 \\sottografo: 0.0012 
+			\item Closness: \\valore massimo: 0.353 
 			\\sottografo: 0.653
-			\item Degree: valore massimo 0.254 
-			\\sottografo 0.653
-			\item In-centrality: 0.253 \\sottografo:0.469
+			\item Degree: \\valore massimo: 0.254 
+			\\sottografo: 0.653
+			\item In-centrality: 0.253 \\sottografo: 0.469
 			\item Out-centrality: 0.00128 di Kevin Callegher \\sottografo: 0.00238 
 		\end{itemize}
 	Riportiamo anche i valori relativi al sottografo connesso che hanno un andamento coerente con il grafo grafo principale, ma i valori sono più alti perché abbiamo un numero di nodi complessivo minore.
 		\begin{itemize}
-			\item PageRank: grafo completo :0,216\\  
+			\item PageRank:\\ grafo completo: 0,216\\  
 			sottografo: 0,243 \\per entrambi i valori si presentano in ordine al numero di followers che ogni account possiede.
 			\item Hits: 
 				\begin{itemize}
@@ -167,9 +184,10 @@ Considerando il sottografo non direzionato il valore dei parametri:
 	\item Sigma: 0.9808
 \end{itemize}
 Il valore di omega vicino allo 0, indica che il grafo ha le caratteristiche di una rete piccolo mondo.
+Dato confermato anche dal valore di Sigma vicino ad 1.
 I parametri sono stati calcolati con:\newline
-- niter = 10, Numero approssimativo di ridirezioni per arco, per calcolare il grafico casuale equivalente\newline
-- nrand = 2, Numero di grafici casuali generati per calcolare il coefficiente di clustering medio e la lunghezza del percorso medio più breve.\newline
+- niter = 15, indica il numero approssimativo di ridirezioni per arco, per calcolare il grafico casuale equivalente\newline
+- nrand = 4, indica il numero di grafici casuali generati per calcolare il coefficiente di clustering medio e la lunghezza del percorso medio più breve.\newline
 Abbiamo optato per valori più bassi rispetto a quelli di default (100,10), questo per ridurre la complessità computazionale del calcolo dei parametri.
 \pagebreak
 \section{Analisi delle correlazioni di Pearson e Kendall}
@@ -179,6 +197,8 @@ Abbiamo optato per valori più bassi rispetto a quelli di default (100,10), ques
 	\includegraphics[width=1\linewidth]{tabella}
 	\caption[]{Tabella della Correlazione di Pearson e Kendel relativa alle misure di centralità del grafo}
 \end{figure}
+Nella tabella è indicato nella terza colonna il valore di correlazione di Pearson e nella quarta colonna il valore di correlazione di Kendall.
+Nella terza colonna i valore vicini all'1 indicano la presenza di correlazione lineare tra il primo ed il secondo parametro, per esempio la \textbf{Betweenness centrality} e la \textbf{In-degree centrality} sono decisamente correlate, rispetto ad esempio la \textbf{Betweenness centrality} e l'\textbf{Out-degree centrality}
 
 
 

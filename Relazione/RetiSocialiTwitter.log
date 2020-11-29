@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  28 NOV 2020 17:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.26)  29 NOV 2020 12:37
 entering extended mode
 **./RetiSocialiTwitter.tex
 (RetiSocialiTwitter.tex
@@ -257,42 +257,62 @@ Package pdftex.def Info: api_show_friendships.png  used on input line 81.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3 <./random_followers.png> <./api_get_user.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 90--100
+<aggiunta_nodi.png, id=26, 549.55313pt x 270.51062pt>
+File: aggiunta_nodi.png Graphic file (type png)
+<use aggiunta_nodi.png>
+Package pdftex.def Info: aggiunta_nodi.png  used on input line 93.
+(pdftex.def)             Requested size: 382.40651pt x 188.24167pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--105
 
  []
 
-[4 <./api_show_friendships.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+<aggiunta_archi.png, id=27, 584.1825pt x 116.93687pt>
+File: aggiunta_archi.png Graphic file (type png)
+<use aggiunta_archi.png>
+Package pdftex.def Info: aggiunta_archi.png  used on input line 108.
+(pdftex.def)             Requested size: 430.20276pt x 86.11795pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
-<rimozione_nodi_sconnessi.png, id=30, 297.11pt x 104.39pt>
+[4 <./api_show_friendships.png> <./aggiunta_nodi.png>] [5 <./aggiunta_archi.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--128
+
+ []
+
+<rimozione_nodi_sconnessi.png, id=37, 297.11pt x 104.39pt>
 File: rimozione_nodi_sconnessi.png Graphic file (type png)
 <use rimozione_nodi_sconnessi.png>
-Package pdftex.def Info: rimozione_nodi_sconnessi.png  used on input line 115.
+Package pdftex.def Info: rimozione_nodi_sconnessi.png  used on input line 132.
 (pdftex.def)             Requested size: 286.8067pt x 100.77393pt.
-[5 <./rimozione_nodi_sconnessi.png>]
-Overfull \hbox (7.4014pt too wide) in paragraph at lines 160--162
+[6 <./rimozione_nodi_sconnessi.png>]
+Overfull \hbox (7.4014pt too wide) in paragraph at lines 177--179
 []\OT1/cmr/m/n/10.95 Lo estra-ia-mo uti-liz-zan-do la fun-zio-ne \OT1/cmr/bx/n/
 10.95 nx.ego[]graph(sub[]twitter[]graph.reverse(), "3036907250")
  []
 
-[6]
-<tabella.png, id=40, 458.71375pt x 340.77313pt>
+[7] [8]
+<tabella.png, id=50, 458.71375pt x 340.77313pt>
 File: tabella.png Graphic file (type png)
 <use tabella.png>
-Package pdftex.def Info: tabella.png  used on input line 179.
+Package pdftex.def Info: tabella.png  used on input line 197.
 (pdftex.def)             Requested size: 478.00632pt x 355.12366pt.
- [7 <./tabella.png>] (RetiSocialiTwitter.aux)
+ [9 <./tabella.png>] (RetiSocialiTwitter.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2934 strings out of 480236
- 43315 string characters out of 2880557
- 344238 words of memory out of 3000000
- 19484 multiletter control sequences out of 15000+200000
+ 2950 strings out of 480236
+ 43635 string characters out of 2880557
+ 344252 words of memory out of 3000000
+ 19500 multiletter control sequences out of 15000+200000
  540898 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,6n,66p,585b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -303,9 +323,9 @@ ic/amsfonts/cm/cmbx12.pfb><C:/Users/loris/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/loris/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/loris/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on RetiSocialiTwitter.pdf (8 pages, 230868 bytes).
+Output written on RetiSocialiTwitter.pdf (10 pages, 327383 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
